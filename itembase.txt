@@ -1,0 +1,25 @@
+All gear classes rolls quality values, such as:
+Base: 
+- Plate mail
+- Tunic
+- Ring mail
+- Chest plate
+- Helmet
+- Visor
+- Gauntlets
+- Vambraces
+Modifiers:
+- Meteoric
+- Steel
+- Iron
+- Elvish
+- Leather
+- Studded
+- Cloth
+- Paper
+- Silver
+- Gold
+
+Get an AI to generate types and qualities. The modifiers might need to be hard coded.
+
+Generate mutations of gear, darkness levels, and difficulty based on the character name and floor number.
