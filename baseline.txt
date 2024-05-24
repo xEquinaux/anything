@@ -1,0 +1,30 @@
+﻿+ Visuals.
+The premise is going to be top-down, 2.5D.
+Imagine walking through the forest with trees partially occluding the forest floor below (maybe made translucent for viewing the player). There's ponds here and there.
+The overworld might as well have a Z coordinate for height and jumping/slope/climbing elements.
+Each dynamic element will be completely 2D. Trees and folliage will be 2.5D.
+The dynamic elements will cast a type of shadow onto the floor below it.
+Daytime dynamics for the overworld -- leading to different mob types or danger.
+Likely to be traps in each dungeon.
+The way the player and objects are drawn will be to face the viewport, not the direction something is moving on the X or Y axis. Only facing the Z axis without rotation. These entities do not "look" left or right either.
+Entering a dungeon occludes all the overworld around it from the viewport. Each dungeon is not instanced. Each layer will be integrated into either the overworld or through each floor--a floor being dynamically loaded in realtime, below and/or above the floor the player is on; only visibility on the current floor.
++ Overworld.
+There are five biomes in the overworld. Each region has a type of dungeons.
++ Dungeons.
+Halls
+Fortress
+Factory
+Caverns
+Well
++ Biomes.
+Forest - Fortress
+Desert - Well
+Tundra - Halls
+Steppe - Factory
+Grasslands - Caverns
++ Mechanics.
+Click to slash. Maybe a bow weapon for hold mouse click to charge, release to fire.
+Time only changes with the speed of the player (time scaling). If moving, or resting, time moves. Stopping movement = time stopped. Hold a key to let time move while velocity is zero to update.
+Resting will be realtime and will move the time at an increased rate--more time spent resting = more healing is applied. Maybe rest for mana too / x2 multiplier on how much is restored per "minute" of resting.
+Moving also is rated at the same as resting, but without time dilation.
+Each dungeon is infinite.
